@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class atividade {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
         double tabuada;
         String msg;
 
@@ -56,6 +56,7 @@ public class atividade {
         }
 
         return content.toString();
+
 
     }
 
