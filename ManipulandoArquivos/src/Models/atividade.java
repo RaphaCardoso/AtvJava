@@ -26,7 +26,7 @@ public class atividade {
 			tabuada = num * i;
 			msg = num + " x " + i + " = " + tabuada;
 			writeToFile("FileData.txt", msg);
-			String content = readFromFile("fileData.txt");
+			String content = readFromFile("FileData.txt");
 			System.out.println("Conteúdo lido do arquivo: " + content);
 		};
 		
