@@ -26,10 +26,10 @@ public class atividade {
 			tabuada = num * i;
 			msg = num + " x " + i + " = " + tabuada;
 			writeToFile("FileData.txt", msg);
-			String content = readFromFile("FileData.txt");
-			System.out.println("Conteúdo lido do arquivo: " + content);
 		};
 		
+		String content = readFromFile("FileData.txt");
+		System.out.println("Conteúdo lido do arquivo: " + content);
 
 		sc.close();
 	}
